@@ -12,10 +12,27 @@ This Web application is created for managing rooms booking  in a Hall.
 ## Programming Tool Used
 -VSCode - Visual Studi0 Code
 
-## JSON Data Testing Schema on POSTMAN
+## Directions
 
+- You can look at the depolyed link for directions OR
+
+-GET: Use the endpoint /hallapi/roominfo to get all the room details
+
+-GET: Use the endpoint /hallapi/bookedroomdata to get all the booked room details
+
+-GET: Use the endpoint /hallapi/customerbookingcount to get the booking count and data of rooms booked by customers
+
+-GET: Use the endpoint /hallapi/customersbookeddata to get all the customers who have booked rooms
+
+-POST: Use the endpoint /hallapi/createroom to create a new room
+
+-POST: Use the endpoint /hallapi/bookroom to book a new room
 
 -To test Post: /hallapi/createroom - you change the value pair to your wish
+
+
+## JSON Data Testing Schema on POSTMAN
+
 
 ```json
 {
@@ -48,4 +65,4 @@ This Web application is created for managing rooms booking  in a Hall.
 
 ## Deployment Link
 
-*Check out My NodeJS Hall Booking System Here*👉🏻 
+*Check out My NodeJS Hall Booking System Here*👉🏻 [![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)](https://hall-booking-1fmv.onrender.com/)
