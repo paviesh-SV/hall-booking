@@ -1,0 +1,27 @@
+//Schema for POSTMAN testing
+
+//To test Post: /hallapi/createroom
+{
+    "room_id": 6,
+    "room_name": "Econ",
+    "room_status": "available",
+    "amenities": "laundry, Wifi",
+    "seats": 3,
+    "price_per_hour": 1000
+}
+
+
+//To test Post: /hallapi/bookroom
+{
+    "customer_name": "Lol123",
+    "date": "05-07-2924",
+    "start_time": "11:00 am",
+    "end_time": "10:30 am"
+}
+
+{
+    "customer_name": "Lol13",
+    "date": "01-07-2924",
+    "start_time": "11:00 am",
+    "end_time": "10:30 am"
+}
