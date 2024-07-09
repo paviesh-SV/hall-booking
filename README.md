@@ -28,11 +28,10 @@ This Web application is created for managing rooms booking  in a Hall.
 
 -POST: Use the endpoint /hallapi/bookroom to book a new room
 
--To test Post: /hallapi/createroom - you change the value pair to your wish
-
 
 ## JSON Data Testing Schema on POSTMAN
 
+-To test Post: /hallapi/createroom - you change the value pair to your wish
 
 ```json
 {
